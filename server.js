@@ -11,8 +11,8 @@ let directory = __dirname + '/public';
 
 /* If we aren't on Heroku, then we need to adjust our port and directory */
 if ((typeof port =='undefined') || (port===null)){
-    port = 8080
-    directory = '.public';
+    port = 8080;
+    directory = './public';
 }
 
 /* Set up our static file web server to deliver files from the filesystem */
